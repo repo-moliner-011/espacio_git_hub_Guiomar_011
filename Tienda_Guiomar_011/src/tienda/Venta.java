@@ -1,6 +1,7 @@
 package tienda;
 
 
+
 public class Venta {
 	private int anio;
 	private int fecha;
@@ -16,6 +17,10 @@ public class Venta {
 		this.horas = horas;
 		this.minutos = minutos;
 		this.segundos = segundos;
+	}
+
+	public Venta(int i, int j, int k, int l, int m) {
+		// TODO Apéndice de constructor generado automáticamente
 	}
 
 	/**
@@ -105,5 +110,4 @@ public class Venta {
 	}
 	
 	
-
 }
